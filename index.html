@@ -345,9 +345,60 @@
             </div>
         </section>
 
-        <!-- ------------------------ primary-button-color --------------------------- -->
-         <section class="border-4">
-            <div class="border-4 container mx-auto p-20">
+        <!-- ------------------------------------------- Limited offer ----------------------------- -->
+
+          <!-- experiment -->
+          <section>
+
+            <div class="border-4 bg-gray-200 container mx-auto py-20">
+                <div class="hero">
+                    <div class="hero-content flex-col lg:flex-row">
+    
+                      <div>
+                        <div class="diff aspect-[16/9] w-[380px] ">
+                            <div class="diff-item-1">
+                              <img alt="daisy" src="./assets/article2.png" />
+                            </div>
+                            <div class="diff-item-2">
+                              <img
+                                alt="daisy"
+                                src="./assets/article1.png" />
+                            </div>
+                            <div class="diff-resizer"></div>
+                          </div>
+                      </div>
+    
+                      <div>
+                        <h1 class="text-5xl font-bold">Grab Our Limited Offer</h1>
+                        <p class="py-6">
+                          You are one click away from our limited offer!
+                        </p>
+                        <div class="mb-4">
+                            <span class="countdown font-mono text-2xl">
+                                <span style="--value:10;"></span>
+                                :
+                                <span style="--value:24;"></span>
+                                :
+                                <span style="--value:${counter};"></span>
+                              </span>
+                        </div>
+                        <button class=" bg-primary-button-color px-10 py-1 rounded-full font-bold">
+                            <a href="#">Get Started</a>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+          </section>
+
+
+
+
+
+        <!-- ------------------------ Read Our Articles and News --------------------------- -->
+         <section>
+            <div class="p-20 container mx-auto">
 
                 <!-- the title -->
                 <div class="flex flex-col items-center justify-center">
@@ -370,11 +421,11 @@
 
                 </div>
 
-                <!-- the card -->
+                <!-- the card 1 -->
                  <div class="mt-16">
 
-                    <div>
-                        <div class="card bg-base-100 w-96 shadow-xl">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="card bg-base-100  shadow-xl">
                             <figure>
                               <img
                                 src="./assets/article1.png"
@@ -408,7 +459,80 @@
                                 </button>
                               </div>
                             </div>
+                          </div>
 
+                          <!-- card 2  -->
+                          <div class="card bg-base-100 shadow-xl">
+                            <figure>
+                              <img
+                                src="./assets/article1.png"
+                                alt="Shoes" />
+                            </figure>
+
+                            <div class="card-body">
+
+                                <div>
+                                    <small class="mr-5">
+                                        <i class="fa-regular fa-calendar-days"></i>
+                                        July14, 2024
+                                    </small>
+                                    <small>
+                                        <i class="fa-solid fa-user-tie"></i>
+                                        By Admin
+                                    </small>
+                                </div>
+                             
+                              <h2 class="card-title">
+                                How to choose the furniture right  of your home.
+                              </h2>
+                              <p>
+                                The barn house captivates with its blend of rustic charm and modern. 
+                              </p>
+
+                              <div class="card-actions">
+                                <button class="font-bold">
+                                    Buy Now
+                                    <i class="fa-solid fa-arrow-right  ml-3 bg-primary-button-color -rotate-45 rounded-full p-2"></i>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- card 3 -->
+                          <div class="card bg-base-100 shadow-xl">
+                            <figure>
+                              <img
+                                src="./assets/article1.png"
+                                alt="Shoes" />
+                            </figure>
+
+                            <div class="card-body">
+
+                                <div>
+                                    <small class="mr-5">
+                                        <i class="fa-regular fa-calendar-days"></i>
+                                        July14, 2024
+                                    </small>
+                                    <small>
+                                        <i class="fa-solid fa-user-tie"></i>
+                                        By Admin
+                                    </small>
+                                </div>
+                             
+                              <h2 class="card-title">
+                                How to choose the furniture right  of your home.
+                              </h2>
+                              <p>
+                                The barn house captivates with its blend of rustic charm and modern. 
+                              </p>
+
+                              <div class="card-actions">
+                                <button class="font-bold">
+                                    Buy Now
+                                    <i class="fa-solid fa-arrow-right  ml-3 bg-primary-button-color -rotate-45 rounded-full p-2"></i>
+                                </button>
+                              </div>
+                            </div>
                           </div>
                     </div>
 
@@ -417,10 +541,86 @@
          </section>
 
 
+         <!-- ------------------------------- form --------------------------------------------->
+          <section class="border-4 bg-gray-200">
+            <div class="container mx-auto">
+
+                <div class=" flex flex-col items-center justify-center">
+                    <div class="mt-20">
+                        <button class=" bg-primary-button-color px-10 py-2 rounded-full">
+                            <a href="#">
+                                <i class="fa-solid fa-arrow-right"></i>
+                                Let’s Connect
+                            </a>
+                        </button>
+                    </div>
+                    <h1 class="font-bold text-4xl my-4">Let’s Discuss Next Project</h1>
+                    <p class="w-3/4 text-center font-bold">
+                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+                    </p>
+                </div>
+            
+                <div class="my-10">
+                    <div class=" grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <input type="text" placeholder="First Name*" class="input input-bordered w-full rounded-full " />
+
+                        <input type="text" placeholder="Last Name*" class="input input-bordered w-full rounded-full" />
+
+                        <input type="number" placeholder="Phone Number*" class="input input-bordered w-full rounded-full" />
+
+                        <input type="text" placeholder="Email Address*" class="input input-bordered w-full rounded-full" />
+
+                        <input type="text" placeholder="Type here" class="input input-bordered w-full md:col-span-2 h-40 rounded-3xl" />
+
+                        <button class="md:col-span-2 py-4 rounded-full bg-primary-button-color font-bold">
+                            <a href="#">
+                                <i class="fa-solid fa-arrow-right mr-4"></i>
+                                Send Mail
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+          </section>
+
+
+
     </main>
 
     <footer>
-
+        <section class=" bg-black p-28">
+            <div class="flex flex-col items-center justify-center">
+                <div>
+                    <div class="text-center">
+                        
+                       <h1 class="text-3xl font-bold text-white">
+                        <i class="fa-solid fa-arrow-right -rotate-45 text-white bg-primary-button-color rounded-full p-2"></i>
+                        Rinterio
+                       </h1>
+                    </div>
+                    <p class="text-white font-bold my-6 text-center">
+                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+                    </p>
+                </div>
+                <div>
+                    <ul class="md:flex md:justify-center md:items-center md:gap-8 text-white font-bold">
+                        <li class="mb-4">Home</li >
+                        <li class="mb-4">Service</li >
+                        <li class="mb-4">Portfolio</li >
+                        <li class="mb-4">Blogs</li >
+                        <li class="mb-4">Contact Us</li>
+                    </ul>
+                </div>
+                <div>
+                    <button class="bg-primary-button-color px-10 md:py-2 mt-6 rounded-full text-white">
+                        <a href="">Book Consult</a>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+              
+            </div>
+        </section>
     </footer>
 </body>
 </html>
